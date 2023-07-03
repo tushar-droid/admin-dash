@@ -58,7 +58,6 @@ body{
 .rightside{
     display: grid;
     grid-template-rows: 1fr 5fr;
-    padding: 2%;
 }
 
 
@@ -66,6 +65,8 @@ body{
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 3fr 4fr;
+    box-shadow: 0 8px 10px -10px black;
+    padding: 2%;
 }
 
 .greeting{
@@ -105,4 +106,47 @@ body{
 .pr-icon{
     height: 60px;
     width: auto;
+}
+.pr-icon-large{
+    height: 100px;
+    width: auto;
+}
+
+.bottom-left{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    font-size:18px;
+    font-weight: 600;
+}
+
+.user-details{
+    font-size:28px;
+    font-weight: 700;
+}
+
+.bottom-right{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+
+.bottom-right > *{
+    width:150px;
+    
+}
+
+.right-btn{
+    height: 40px;
+}
+
+.bottom-right button { 
+    background-color: var(--back-clr);
+    color:var(--fnt-clr);
+    width:100%;
+    height: 100%;
+    border-radius: 30px;
+    border:none;
+    font-weight: 700;
+    font-size: 14px;
 }
