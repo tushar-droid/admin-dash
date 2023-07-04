@@ -232,3 +232,32 @@ body{
 .bottom-line{
     border-bottom: solid thin rgb(229, 227, 227)
 }
+.trending{
+    padding: 20px;
+}
+
+.friends-avatar{
+    height:40px;
+    width:auto;
+}
+.trend-container{
+    border-radius: 10px;
+    padding:5% 10%;
+    box-shadow: 5px 10px 20px 1px rgba(215, 213, 213, 0.532);
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.friend{
+    display: flex;
+    align-items: center;    
+    gap:20px;
+
+}
+.friend-details > *{
+    margin:5px;
+}
