@@ -154,7 +154,7 @@ body{
 .maincontent{
     display: grid;
     grid-template-columns: 4fr 2fr;
-    grid-template-rows: repeat(2, 1fr);  
+    grid-template-rows: clamp(575px, 30vh, 750px) 1fr;  
     gap:40px;
     background-color: rgba(231, 229, 229, 0.532);
     padding-left: 2% ;
