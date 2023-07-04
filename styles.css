@@ -57,7 +57,7 @@ body{
 
 .rightside{
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: minmax(1fr, 150px) 5fr;
 }
 
 
@@ -94,7 +94,7 @@ body{
     background-color:rgba(231, 229, 229, 0.532);
     border-radius: 30px;
     width: 90%;
-    height: 50px;
+    height: 40px;
     border: none;
 }
 
