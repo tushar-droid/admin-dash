@@ -164,7 +164,6 @@ body{
 .projects-container{
     grid-row: 1 / 3;    
     padding: 20px;    
-   
 }
 
 .projects-grid{
@@ -200,6 +199,36 @@ body{
 .project-desc{
     width:80%;
 }
-.project-desc > p{
+.project-desc > p , .announc-container p{
     color: gray;
+}
+
+.announcements{
+    padding: 20px;
+    }
+
+
+
+.announc-container{
+    border-radius: 10px;
+    padding:5% 10%;
+    box-shadow: 5px 10px 20px 1px rgba(215, 213, 213, 0.532);
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Trial Code for Ellipsis */
+
+.announc-container p{
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+   display: -webkit-box;
+}
+.bottom-line{
+    border-bottom: solid thin rgb(229, 227, 227)
 }
